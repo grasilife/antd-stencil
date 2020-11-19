@@ -52,7 +52,8 @@
   },
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-customizable"
+      "path": "node_modules/cz-customizable",
+      "pre-commit": "lint-staged"
     }
   },
   "workspaces": [
@@ -78,6 +79,7 @@
     "eslint-plugin-standard": "^4.1.0",
     "husky": "^4.3.0",
     "lerna": "^3.22.1",
+    "lint-staged": "^10.5.1",
     "typescript": "^4.0.5"
   },
   "dependencies": {}
