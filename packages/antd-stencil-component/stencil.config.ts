@@ -1,7 +1,9 @@
 import { Config } from '@stencil/core';
-
+import { less } from '@stencil/less';
+// import { postcss } from '@stencil/postcss';
+// import { autoprefixer } from 'autoprefixer';
 export const config: Config = {
-  namespace: 'stencijs-antd',
+  namespace: 'antd-stencil-component',
   outputTargets: [
     {
       type: 'dist',
@@ -17,5 +19,16 @@ export const config: Config = {
       type: 'www',
       serviceWorker: null, // disable service workers
     },
+  ],
+  plugins: [
+    less(),
+    // postcss({
+    //   plugins: [
+    //     autoprefixer({
+    //       browsers: ['last 6 versions'],
+    //       cascade: false,
+    //     }),
+    //   ],
+    // }),
   ],
 };

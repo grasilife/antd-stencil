@@ -24,5 +24,10 @@
   "dependencies": {
     "@stencil/core": "^2.0.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@stencil/less": "^1.0.0",
+    "@stencil/postcss": "^1.0.1",
+    "autoprefixer": "^10.0.2"
+  }
 }
