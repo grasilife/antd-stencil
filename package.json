@@ -1,7 +1,7 @@
 {
   "name": "root",
   "private": true,
-  "title": "stenciljs-antd",
+  "title": "antd-stencil",
   "description": "基于antd的stenciljs实现",
   "scripts": {
     "commit": "cz",
