@@ -1,5 +1,4 @@
 dist
 node_modules
-*.d.ts
 packages/antd-stencil-component/www/
 packages/antd-stencil-component/loader/
