@@ -7,3 +7,14 @@
 yarn
 
 ```
+
+## 工作流
+
+1. Make changes
+1. Commit those changes
+1. Make sure Travis turns green
+1. Bump version in `package.json`
+1. `conventionalChangelog`
+1. Commit `package.json` and `CHANGELOG.md` files
+1. Tag
+1. Push
