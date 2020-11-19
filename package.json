@@ -1,0 +1,47 @@
+{
+  "name": "root",
+  "private": true,
+  "title": "stenciljs-antd",
+  "description": "基于antd的stenciljs实现",
+  "scripts": {
+    "lint": "eslint packages/  --ext .js --ext .ts",
+    "docs:rename-version": "cd website && docusaurus-rename-version",
+    "clear-all": "lerna clean",
+    "bootstrap:ci": "lerna bootstrap --npm-client=yarn",
+    "bootstrap:lerna": "lerna bootstrap",
+    "build": "lerna run build",
+    "start": "lerna run start",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "release:lerna": "lerna version --exact --no-git-tag-version",
+    "release:beta": "lerna publish --force-publish=* --exact --skip-temp-tag  --preid=beta --npm-tag=beta"
+  },
+  "main": "index.js",
+  "homepage": "https://github.com/grasilife/stenciljs-antd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grasilife/stenciljs-antd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grasilife/stenciljs-antd/issues"
+  },
+  "author": {
+    "name": "grasilife",
+    "email": "434543162@qq.com",
+    "homepage": "https://github.com/grasilife"
+  },
+  "license": "MIT",
+  "keywords": [
+    "webcomponents",
+    "web-components",
+    "typescript",
+    "less",
+    "stenciljs",
+    "stencil",
+    "antd",
+    "Ant Design"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {}
+}
