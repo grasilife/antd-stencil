@@ -1,10 +1,10 @@
-# Taro Contributing Guide
+# antd-stencil Contributing Guide
 
 我们非常欢迎社区的开发者向 antd-stencil 做出贡献。在提交贡献之前，请花一些时间阅读以下内容，保证贡献是符合规范并且能帮助到社区。
 
 ## Issue 报告指南
 
-如果提交的是 Bug 报告，请务必遵守 [`Bug report`](https://github.com/grasilife/stenciljs-antd/master/.github/ISSUE_TEMPLATE/bug_report.md) 模板。
+如果提交的是 Bug 报告，请务必遵守 [`Bug report`](https://github.com/grasilife/antd-stencil/tree/master/.github/ISSUE_TEMPLATE/bug_report.md) 模板。
 
 如果提交的是功能需求，请在 issue 的标题的起始处增加 `[Feature request]` 字符。
 

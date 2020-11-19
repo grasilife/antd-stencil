@@ -1,6 +1,6 @@
 <!--
 请务必阅读贡献者指南:
-https://github.com/grasilife/stenciljs-antd/master/.github/CONTRIBUTING.md
+https://github.com/grasilife/antd-stencil/blob/master/.github/CONTRIBUTING.md
 -->
 
 <!-- PULL REQUEST TEMPLATE -->

@@ -38,11 +38,11 @@ yarn
 
 #### 为 antd-stencil 贡献代码
 
-antd-stencil 非常欢迎社区开发者为 antd-stencil 贡献代码，在贡献之前请先阅读[贡献指南](https://github.com/grasilife/stenciljs-antd/master/.github/CONTRIBUTING.md)。
+antd-stencil 非常欢迎社区开发者为 antd-stencil 贡献代码，在贡献之前请先阅读[贡献指南](https://github.com/grasilife/antd-stencil/blob/master/.github/CONTRIBUTING.md)。
 
 ## 问题反馈与建议
 
-[给 antd-stencil 提 ISSUE](https://tls.jd.com/taro-issue-helper/)
+[给 antd-stencil 提 ISSUE](http://new-issue.ant.design/)
 
 ## 贡献者们
 

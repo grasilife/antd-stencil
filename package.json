@@ -18,13 +18,13 @@
     "release:beta": "lerna publish --force-publish=* --exact --skip-temp-tag  --preid=beta --npm-tag=beta"
   },
   "main": "index.js",
-  "homepage": "https://github.com/grasilife/stenciljs-antd",
+  "homepage": "https://github.com/grasilife/antd-stencil",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grasilife/stenciljs-antd.git"
+    "url": "git+https://github.com/grasilife/antd-stencil.git"
   },
   "bugs": {
-    "url": "https://github.com/grasilife/stenciljs-antd/issues"
+    "url": "https://github.com/grasilife/antd-stencil/issues"
   },
   "author": {
     "name": "grasilife",
