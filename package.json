@@ -40,6 +40,13 @@
     "antd",
     "Ant Design"
   ],
+  "lint-staged": {
+    "*.{js,jsx,vue}": "eslint",
+    "*.{css,less,vue}": "stylelint"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "lerna": "^3.22.1"
   },
