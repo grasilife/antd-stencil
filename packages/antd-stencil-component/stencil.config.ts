@@ -31,4 +31,5 @@ export const config: Config = {
     //   ],
     // }),
   ],
+  testing: {},
 };
