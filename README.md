@@ -19,10 +19,17 @@
 
 ## 开始
 
-本项目使用 lerna 和 yarn 管理依赖和发布 #使用 yarn 命令安装所有 package 下的依赖到根目录的 node_modules
+本项目使用 lerna 和 yarn 管理依赖和发布,yarn 管理依赖,lerna 管理发布 #使用 yarn 命令安装所有 package 下的依赖到根目录的 node_modules
 
 ```bash
 yarn
+env PUPPETEER_SKIP_CHROMIUM_DOWNLOAD="true" yarn add eslint-plugin-html -D -W
+```
+
+puppeteer 安装问题
+
+```bash
+env PUPPETEER_SKIP_CHROMIUM_DOWNLOAD="true" yarn
 ```
 
 ## 工作流

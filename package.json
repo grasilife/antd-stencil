@@ -59,7 +59,9 @@
     }
   },
   "workspaces": [
-    "packages/*"
+    "packages/antd-stencil-component",
+    "packages/antd-stencil-cli",
+    "packages/website"
   ],
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
