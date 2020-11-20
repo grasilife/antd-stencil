@@ -1,5 +1,6 @@
 {
   "name": "antd-stencil-cli",
+  "private": false,
   "version": "0.0.1",
   "description": "antd-stencil脚手架",
   "author": "fuguoqiang1 <fuguoqiang1@100tal.com>",

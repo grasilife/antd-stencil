@@ -1,5 +1,6 @@
 {
   "name": "antd-stencil-component",
+  "private": false,
   "version": "0.0.1",
   "description": "antd-stencil组件库",
   "main": "dist/index.cjs.js",
