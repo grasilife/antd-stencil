@@ -32,6 +32,21 @@ puppeteer 安装问题
 env PUPPETEER_SKIP_CHROMIUM_DOWNLOAD="true" yarn
 ```
 
+查看所有的包
+
+```bash
+lerna list
+```
+
+创建一个包,
+第一步:在更目录 package.json 中 workspaces 中创建包名称
+第二步:创建包
+
+```bash
+lerna create <name> [loc]
+#创建一个包，name包名，loc 位置可选
+```
+
 ## 工作流
 
 1. Make changes
