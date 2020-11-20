@@ -31,5 +31,8 @@ export const config: Config = {
     //   ],
     // }),
   ],
+  // bundles配置是表示一组组件将被捆绑打包,减少网络强求
+  bundles: [],
+
   testing: {},
 };

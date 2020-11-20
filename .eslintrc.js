@@ -1,6 +1,6 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'jest', 'react', 'prettier'],
+  plugins: ['@typescript-eslint', 'jest', 'react', 'prettier', 'html'],
   extends: ['standard', 'prettier', 'plugin:@typescript-eslint/recommended', 'plugin:react/recommended'],
   rules: {
     '@typescript-eslint/no-use-before-define': 0,
