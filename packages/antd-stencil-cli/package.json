@@ -1,7 +1,7 @@
 {
   "name": "antd-stencil-cli",
   "version": "0.0.1",
-  "description": "> TODO: description",
+  "description": "antd-stencil脚手架",
   "author": "fuguoqiang1 <fuguoqiang1@100tal.com>",
   "homepage": "https://github.com/grasilife/antd-stencil/tree/master/packages/antd-stencil-cli#readme",
   "license": "MIT",
