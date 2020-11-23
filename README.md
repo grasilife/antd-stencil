@@ -76,7 +76,7 @@ antd-stencil 非常欢迎社区开发者为 antd-stencil 贡献代码，在贡�
 
 ## 更新日志
 
-本项目遵从 [Angular Style Commit Message Conventions](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)，更新日志请查阅 [Release](https://github.com/grasilife/antd-stencil/CHANGELOG)。
+本项目遵从 [Angular Style Commit Message Conventions](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)，更新日志请查阅 [changelog](https://github.com/grasilife/antd-stencil/blob/master/CHANGELOG.md)。
 
 ## 开发交流
 
