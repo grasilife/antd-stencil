@@ -8,6 +8,7 @@ module.exports = {
     'react/prop-types': 0,
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-var-requires': 0,
+    'node/no-path-concat': 'error',
   },
   env: {
     'jest/globals': true,

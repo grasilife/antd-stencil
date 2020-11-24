@@ -29,7 +29,17 @@ env PUPPETEER_SKIP_CHROMIUM_DOWNLOAD="true" yarn add eslint-plugin-html -D -W
 puppeteer 安装问题
 
 ```bash
+yarn cache clean
 env PUPPETEER_SKIP_CHROMIUM_DOWNLOAD="true" yarn
+```
+
+mozjpeg pre-build test failed 安装问题
+
+```bash
+#mac
+brew install nasm
+#ubuntu
+sudo apt install nasm
 ```
 
 查看所有的包

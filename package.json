@@ -61,7 +61,8 @@
   "workspaces": [
     "packages/antd-stencil-component",
     "packages/antd-stencil-cli",
-    "packages/website"
+    "packages/website",
+    "packages/gatsby-site"
   ],
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
